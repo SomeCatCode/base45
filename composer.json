@@ -1,0 +1,25 @@
+{
+    "name": "somecatcode/base45",
+    "description": "Base45 decoder/encoder for PHP",
+    "type": "library",
+    "minimum-stability": "stable",
+    "keywords": ["decoder", "encoder"],
+    "homepage": "https://github.com/SomeCatCode/base45",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Felix Kurth",
+            "email": "it@wasmitleder.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SomeCatCode\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SomeCatCode\\": "tests/"
+        }
+    }
+}
